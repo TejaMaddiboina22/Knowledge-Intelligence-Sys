@@ -1,6 +1,6 @@
-from models.vector_store import VectorStore
-from services.storage_service import StorageService
-from services.llm_service import LLMService
+from ..models.vector_store import VectorStore
+from ..services.storage_service import StorageService
+from ..services.llm_service import LLMService
 from config import Config
 import os
 from langchain.document_loaders import TextLoader, PyPDFLoader
